@@ -19,6 +19,7 @@ public class CEOutcome extends CommonOutcome {
   @ApiModelProperty(notes = "Identifier to the field officer that accompanied the primary officer")
   private String accompanyingOfficerId;
 
+
   @ApiModelProperty(notes = "Populated with the CE SPG details")
   private CeDetails ceDetails;
 
