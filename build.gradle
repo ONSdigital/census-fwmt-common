@@ -48,6 +48,8 @@ dependencies {
 
     compile("org.projectlombok:lombok:1.18.6")
     annotationProcessor("org.projectlombok:lombok:1.18.6")
+
+    implementation group: "jakarta.persistence", name: "jakarta.persistence-api", version: "2.2.3"
 }
 
 artifactory {
